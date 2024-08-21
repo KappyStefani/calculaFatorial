@@ -1,11 +1,12 @@
+package recursão ; 
 import javax.swing.*;
+
 
 class fatorial{
 	static void fatP (int n, int x, int f)
 	{
 		if (x == 0 || x == 1 ) {
-			System.out.println("O fatorial de " + n + " é " + f);
-			
+			JOptionPane.showMessageDialog(null, "O fatorial de " + n + " é " + f);
 		}
 		else 
 		{
